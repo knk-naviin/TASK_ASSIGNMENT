@@ -2,10 +2,9 @@ const mongoose = require('mongoose');
 
 //import schema from mongoose
 
-const Schema = new mongoose.Schema;
+const Schema =  mongoose.Schema;
 
-const Task_schema = new Schema(
-    {
+const Task_schema = new Schema({
         title: {
             type: String,
             require:true //This is enable (*) mandatory field
